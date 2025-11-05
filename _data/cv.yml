@@ -36,7 +36,7 @@
       institution: Proceedings of Speech Prosody 2024, pp. 652–656. DOI 10.21437/SpeechProsody.2024-132
       year: 2024
       description:
-        - Y. Yao, <strong>*M. Li</strong>, S. Li, & C. B. Chang
+        - Yao, Y., <strong>*Li, M.</strong>, Li, S., & Chang, C. B.
 
 - title: Conference Presentations & Posters
   type: time_table
@@ -97,11 +97,18 @@
         - President Scholarship for Academic Achievement — The George Washington University
 
 - title: Skills & Certificates
-  type: list
+  type: map
   contents:
-    - Certificate of Clinical Competence in Speech-Language Pathology (CCC-SLP)
-    - Certificate of MBSImP
-    - Research Methods: EEG, Eye-Tracking (Tobii) 
-    - Analysis Methods: SPSS, MATLAB, Python, Prism, R, Praat
+    - name: Certificates
+      value: Certificate of Clinical Competence in Speech-Language Pathology (CCC-SLP); MBSImP
+    - name: Research Methods
+      value: EEG; Eye-tracking (Tobii)
+    - name: Analysis Methods
+      value: SPSS; MATLAB; Python; Prism; R; Praat
+    - name: Language 
+      value: Mandarin (Native) → English (Fluent) → French (Intermediate) → American Sign Language (Basic)
+
+    
+
 
 
