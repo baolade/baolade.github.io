@@ -159,113 +159,99 @@ html[data-theme-setting="light"] {
     display: block;
   }
 }
-/* ===== Custom Palette: 芦汀初雪 =====
-   主色: #A1C1A1  悬停/次色: #8BA995
-   点缀棕: #D2C4B2  浅米白背景: #F7F6F3  分割线: #E7E3DE  页脚底: #DFDAD3
-*/
-
-/* ---------- Light (默认) ---------- */
+/* ---------- Light (方案三：蓝紫系) ---------- */
 :root {
   color-scheme: light;
 
   /* 背景/文字 */
-  --global-bg-color: #F7F6F3;        /* 页面底色更柔和 */
+  --global-bg-color: #F7F6F3;      /* 纸感底色 */
   --global-text-color: #222222;
   --global-text-color-light: #666666;
 
-  /* 代码块/卡片 */
-  --global-code-bg-color: #F0EEE9;   /* 比纯白更温和一点 */
-  --global-card-bg-color: #FFFFFF;
-
-  /* 品牌色 & 交互 */
-  --global-theme-color: #A1C1A1;     /* 链接、主按钮 */
-  --global-hover-color: #8BA995;     /* 悬停 */
+  /* 品牌 & 交互 */
+  --global-theme-color: #395176;   /* 主链接/主按钮 */
+  --global-hover-color: #90B1CF;   /* 悬停/active */
   --global-hover-text-color: #FFFFFF;
 
-  /* 页脚 */
-  --global-footer-bg-color: #DFDAD3; /* 雪芽白偏米 */
-  --global-footer-text-color: #5B463E;   /* 深棕与底色匹配 */
-  --global-footer-link-color: #5B463E;
+  /* 代码块/卡片 */
+  --global-code-bg-color: #F0EEE9;
+  --global-card-bg-color: #FFFFFF;
 
-  /* 其他系统色 */
-  --global-distill-app-color: #8BA995;
-  --global-divider-color: #E7E3DE;   /* 分割线 */
-  --global-highlight-color: #D2C4B2; /* 文内高亮/强调 */
+  /* 分割线/高亮 */
+  --global-divider-color: #E6E0D7;
+  --global-highlight-color: #BDB0CA;  /* <mark>、提示块背景等 */
 
-  /* 返回顶部按钮（保持可读） */
-  --global-back-to-top-bg-color: rgba(0, 0, 0, 0.14);
+  /* 页脚（与整体和谐的冷灰紫） */
+  --global-footer-bg-color: #EBE8F0;
+  --global-footer-text-color: #3A3A46;
+  --global-footer-link-color: #395176;
+
+  /* 其他 */
+  --global-distill-app-color: #9295B7;
+  --global-back-to-top-bg-color: rgba(0,0,0,0.14);
   --global-back-to-top-text-color: #FFFFFF;
-
-  /* Newsletter（如开启） */
   --global-newsletter-bg-color: #FFFFFF;
   --global-newsletter-text-color: #222222;
 
-  /* tip/warn/danger 信息块（沿用默认或轻度谐调） */
-  --global-tip-block: #42b983;
-  --global-tip-block-bg: #e2f5ec;
-  --global-tip-block-text: #215d42;
-  --global-tip-block-title: #359469;
+  /* 信息块（可选微调成蓝紫气质） */
+  --global-tip-block: #4A6AA1;
+  --global-tip-block-bg: #EDF2FA;
+  --global-tip-block-text: #2E3D63;
+  --global-tip-block-title: #395176;
 
-  --global-warning-block: #b89b2a;        /* 略暖金 */
-  --global-warning-block-bg: #fff7dc;
-  --global-warning-block-text: #6b5900;
-  --global-warning-block-title: #a58617;
+  --global-warning-block: #B5933A;
+  --global-warning-block-bg: #FFF6DD;
+  --global-warning-block-text: #6B5A1F;
+  --global-warning-block-title: #A8842F;
 
-  --global-danger-block: #b85757;         /* 柔和红 */
-  --global-danger-block-bg: #ffe8e8;
-  --global-danger-block-text: #6a2d2d;
-  --global-danger-block-title: #b85757;
+  --global-danger-block: #B65A6A;
+  --global-danger-block-bg: #FDECEF;
+  --global-danger-block-text: #6A2E37;
+  --global-danger-block-title: #B65A6A;
 }
 
-/* ---------- Dark ---------- */
+/* ---------- Dark（与方案三相配的冷深色） ---------- */
 html[data-theme="dark"] {
   color-scheme: dark;
 
-  /* 背景/文字 */
-  --global-bg-color: #0f1412;            /* 深绿黑 */
-  --global-text-color: #CFE0D8;
-  --global-text-color-light: #97A8A2;
+  --global-bg-color: #0F1218;         /* 深海军蓝底 */
+  --global-text-color: #E6EAF1;
+  --global-text-color-light: #A9B3C5;
 
-  /* 代码块/卡片 */
-  --global-code-bg-color: #141a18;
-  --global-card-bg-color: #1a211e;
+  --global-code-bg-color: #141923;
+  --global-card-bg-color: #171C26;
 
-  /* 品牌色 & 交互 */
-  --global-theme-color: #A1C1A1;         /* 保持品牌感 */
-  --global-hover-color: #8BA995;
-  --global-hover-text-color: #0f1412;
+  --global-theme-color: #90B1CF;      /* 夜间主链接更亮 */
+  --global-hover-color: #BDB0CA;      /* 悬停偏紫，区分层级 */
+  --global-hover-text-color: #0F1218;
 
-  /* 页脚 */
-  --global-footer-bg-color: #1a211e;
-  --global-footer-text-color: #B7C3BD;
-  --global-footer-link-color: #E6EAE7;
+  --global-divider-color: #263043;
+  --global-highlight-color: #505A86;  /* 深色模式下的高亮 */
 
-  /* 其他系统色 */
-  --global-distill-app-color: #CFE0D8;
-  --global-divider-color: #24302b;
-  --global-highlight-color: #6E5C54;     /* 点缀棕加深 */
+  --global-footer-bg-color: #171C26;
+  --global-footer-text-color: #C8D0DF;
+  --global-footer-link-color: #90B1CF;
 
-  /* 返回顶部按钮 */
-  --global-back-to-top-bg-color: rgba(255, 255, 255, 0.5);
-  --global-back-to-top-text-color: #0f1412;
+  --global-distill-app-color: #9295B7;
+  --global-back-to-top-bg-color: rgba(255,255,255,0.5);
+  --global-back-to-top-text-color: #0F1218;
 
-  /* Newsletter */
-  --global-newsletter-bg-color: #222a26;
-  --global-newsletter-text-color: #CFE0D8;
+  --global-newsletter-bg-color: #1C2230;
+  --global-newsletter-text-color: #D7DEEA;
 
-  /* 信息块可继续沿用亮色值，或按需加深 */
-  --global-tip-block: #58c097;
-  --global-tip-block-bg: #1c2a25;
-  --global-tip-block-text: #a9d8c6;
-  --global-tip-block-title: #7acdaf;
+  /* 信息块（夜间） */
+  --global-tip-block: #8FB2E0;
+  --global-tip-block-bg: #1A2435;
+  --global-tip-block-text: #D5E3F6;
+  --global-tip-block-title: #AEC8EC;
 
-  --global-warning-block: #d4b43a;
-  --global-warning-block-bg: #2b2717;
-  --global-warning-block-text: #e7d79a;
-  --global-warning-block-title: #e2c85d;
+  --global-warning-block: #D8BD6A;
+  --global-warning-block-bg: #2A2618;
+  --global-warning-block-text: #F0E4B6;
+  --global-warning-block-title: #E8CF84;
 
-  --global-danger-block: #d67a7a;
-  --global-danger-block-bg: #2b1d1d;
-  --global-danger-block-text: #f1b3b3;
-  --global-danger-block-title: #e08f8f;
+  --global-danger-block: #D68A9A;
+  --global-danger-block-bg: #2B1F23;
+  --global-danger-block-text: #F1C2CB;
+  --global-danger-block-title: #E39EAD;
 }
