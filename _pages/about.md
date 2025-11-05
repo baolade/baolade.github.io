@@ -6,7 +6,7 @@ subtitle: PhD student/The Hong Kong Polytechnic University
 
 profile:
   align: right
-  image: avatar.png           # 把头像放到 /assets/img/prof_pic.jpg
+  image: kid.png          # 把头像放到 /assets/img/
   image_circular: true          # 圆形头像（想要方形就改回 false）
   more_info: >
     <p><a href="mailto:meixian.li@connect.polyu.hk">meixian.li@connect.polyu.hk</a></p>
