@@ -24,6 +24,22 @@ impressum_path: # set to path to include impressum link in the footer, use the s
 back_to_top: true # set to false to disable the back to top button
 
 # -----------------------------------------------------------------------------
+# Defaults (merge all defaults into ONE block)
+# -----------------------------------------------------------------------------
+defaults:
+  # A) 博客文章默认不发布
+  - scope:
+      path: "_posts"
+      type: "posts"   # 可写可不写，但写上更明确
+    values:
+      published: false
+
+  # B) 关闭 assets 目录的 sitemap
+  - scope:
+      path: "assets"
+    values:
+      sitemap: false
+# -----------------------------------------------------------------------------
 # Theme
 # -----------------------------------------------------------------------------
 
@@ -205,12 +221,6 @@ plugins:
   - jekyll-twitter-plugin
   - jemoji
 
-# Sitemap settings
-defaults:
-  - scope:
-      path: "assets"
-    values:
-      sitemap: false
 
 sass:
   style: compressed
