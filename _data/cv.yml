@@ -32,19 +32,67 @@
 - title: Publications
   type: time_table
   contents:
-    - title: Perceiving the social meanings of creaky voice in Mandarin Chinese
-      institution: Proceedings of Speech Prosody 2024, pp. 652–656. DOI 10.21437/SpeechProsody.2024-132
+    - title: "A corpus-based study of creaky voice production in English and Mandarin"
+      institution: >-
+        Proceedings of Interspeech 2026, pp. 1779–1783.
+        <a href="https://doi.org/10.21437/Interspeech.2026-3235">DOI: 10.21437/Interspeech.2026-3235</a>
+      year: 2026
+      description:
+        - "<strong>Li, M.</strong>, Yao, Y., & Chang, C. B."
+
+    - title: "Social perception of creaky voice in Mandarin Chinese: everyone’s gender matters"
+      institution: >-
+        Humanities and Social Sciences Communications, 13, Article 703.
+        <a href="https://doi.org/10.1057/s41599-026-07108-z">DOI: 10.1057/s41599-026-07108-z</a>
+      year: 2026
+      description:
+        - "Yao, Y., <strong>Li, M.</strong>, & Chang, C. B."
+
+    - title: "Perceiving the social meanings of creaky voice in Mandarin Chinese"
+      institution: >-
+        Proceedings of Speech Prosody 2024, pp. 652–656.
+        <a href="https://doi.org/10.21437/SpeechProsody.2024-132">DOI: 10.21437/SpeechProsody.2024-132</a>
       year: 2024
       description:
-        - Yao, Y., <strong>*Li, M.</strong>, Li, S., & Chang, C. B.
+        - "Yao, Y., <strong>Li, M.</strong>, Li, S., & Chang, C. B."
 
 - title: Conference Presentations & Posters
   type: time_table
   contents:
+    - year: 2026
+      items:
+        - >-
+          <strong>Li, M.</strong>, Yao, Y., & Chang, C. B. (September 29).
+          <em>A corpus-based study of creaky voice production in English and Mandarin</em>.
+          Oral presentation, Interspeech 2026, Sydney, Australia.
+        - >-
+          <strong>Li, M.</strong>, Yao, Y., & Chang, C. B.
+          <em>Cross-language variation in sociophonetic perception reflects language effects</em>.
+          Poster presentation, Laboratory Phonology 20, Montreal, Canada.
+        - >-
+          <strong>Li, M.</strong>, Yao, Y., & Chang, C. B.
+          <em>Gender effects in creaky voice production in English and Mandarin: Men are creakier</em>.
+          Oral presentation, Hanyang International Symposium on Phonetics and Cognitive Sciences of Language
+          (HISPhonCog 2026), Seoul, South Korea.
+
+    - year: 2025
+      items:
+        - >-
+          <strong>Li, M.</strong>, Yao, Y., & Chang, C. B.
+          <em>Cross-linguistic social perception of creaky voice by Mandarin-English bilinguals</em>.
+          Poster presentation, 19th International Conference on the Processing of East Asian Languages
+          (ICPEAL 2025), Guangzhou, China.
+
     - year: 2024
       items:
-        - Yao, Y., <strong>*Li, M.</strong>, Li, S., & Chang, C. B. (July 4). <em>Perceiving the social meanings of creaky voice in Mandarin Chinese</em>. Speech Prosody 2024, Leiden, The Netherlands.
-        - Yao, Y., <strong>*Li, M.</strong>, Li, S., & Chang, C. B. (June 29). <em>Gender effects in the social perception of creaky voice in Mandarin Chinese</em>. Laboratory Phonology 19, Seoul, South Korea.
+        - >-
+          Yao, Y., <strong>Li, M.</strong>, Li, S., & Chang, C. B. (July 4).
+          <em>Perceiving the social meanings of creaky voice in Mandarin Chinese</em>.
+          Speech Prosody 2024, Leiden, The Netherlands.
+        - >-
+          Yao, Y., <strong>Li, M.</strong>, Li, S., & Chang, C. B. (June 29).
+          <em>Gender effects in the social perception of creaky voice in Mandarin Chinese</em>.
+          Laboratory Phonology 19, Seoul, South Korea.
 
 - title: Research Experience
   type: time_table
